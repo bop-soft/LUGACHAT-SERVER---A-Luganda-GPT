@@ -20,4 +20,4 @@ def call_openai(transcription):
       return completion.choices[0].message
     except Exception as e:
       print(f"OpenAI API error: {e}")
-      return "OpenAI API Error, possibly because current quota has been exceeded"
+      return "Wabaddewo obuzibu ne Open API. Kakasa nti wajisasulidde!"

@@ -68,7 +68,7 @@ def transcribe():
         # transcription = jsonify({"transcription": transcription})
         print(transcription)
         my_response = call_openai(transcription)
-        return jsonify({"transcription": str(transcription) + ": respnse is; " + str(my_response)})
+        return jsonify({"transcription": str(transcription) + ": response is; " + str(my_response)})
 
     except Exception as e:
         print(f"Error: {e}")
